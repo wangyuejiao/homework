@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>毕业生信息</title>
+  	<meta charset="UTF-8">
+</head>
+<body>
+    <h1>毕业生信息</h1>
+     <form>
+         <fieldset>
+             <legend id="student" style="color:red">
+                 学生信息
+             </legend>
+             姓&nbsp;&nbsp;名&nbsp;<input type="text" name="name" placeholder="请输入姓名">
+             <span id="student" style="color:red">*</span>
+             </br>
+             学&nbsp;&nbsp;号&nbsp;<input type="text" name="number1" placeholder="请输入学号">
+             <span id="student" style="color:red">*</span>
+             </br>
+             手&nbsp;&nbsp;机&nbsp;<input type='tel' name="number2" placeholder="请输入手机号">
+             <span id="student" style="color:red">*</span>
+             </br>
+             邮&nbsp;&nbsp;箱&nbsp;<input type="email" name="email" placeholder="请输入邮箱地址">
+             <span id="student" style="color:red">*</span>
+         </fieldset>
+     </form>
+     <form>
+            <fieldset>
+                <legend id="student" style="color:red">
+                    录取情况
+                </legend>
+                录取学校&nbsp;<input type="search" name="search" list="schools">
+		            <datalist id='schools'>
+				         <option>河北师范大学</option>
+				         <option>河北师范大学汇华学院</option>
+				         <option>医科大</option>
+				         <option>河北经贸大学</option>
+				         <option>河北科技大学</option>
+                   </datalist>
+                </br>
+                入学成绩&nbsp;<input type="number" name="grade">
+                </br>
+                入学时间&nbsp;<input type="date" name="date">
+            </fieldset>
+    </form>
+    <input type="submit" style="margin-top: 25px;">
+</body>
+</html>
+
+
